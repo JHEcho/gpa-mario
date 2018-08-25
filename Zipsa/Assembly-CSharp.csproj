@@ -63,7 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\UI\Script\MainMenu\MainMenuUI.cs" />
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/My/development/Game/Zipsa/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/My/development/Game/Gpa/Zipsa/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

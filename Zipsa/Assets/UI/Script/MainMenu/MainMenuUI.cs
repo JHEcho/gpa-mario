@@ -6,22 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuUI : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
     public void StartBegin()
     {
         SceneManager.LoadScene("StoryPage");
     }
     public void StartLoad()
     {
-
+        SceneManager.LoadScene("Room");
     }
 }
