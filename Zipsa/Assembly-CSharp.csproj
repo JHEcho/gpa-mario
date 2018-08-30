@@ -61,7 +61,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\UI\Script\Loding\Loding.cs" />
+    <Compile Include="Assets\UI\Script\Loding\Openning.cs" />
     <Compile Include="Assets\UI\Script\MainMenu\MainMenuUI.cs" />
+    <Compile Include="Assets\UI\Script\Room\RoomUI.cs" />
+    <Compile Include="Assets\UI\Script\Story\StoryManager.cs" />
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/My/development/Game/Gpa/Zipsa/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
