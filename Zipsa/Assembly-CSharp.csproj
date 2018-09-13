@@ -64,6 +64,7 @@
     <Compile Include="Assets\UI\Script\Loding\Loding.cs" />
     <Compile Include="Assets\UI\Script\Loding\Openning.cs" />
     <Compile Include="Assets\UI\Script\MainMenu\MainMenuUI.cs" />
+    <Compile Include="Assets\UI\Script\Play\Puase.cs" />
     <Compile Include="Assets\UI\Script\Room\RoomUI.cs" />
     <Compile Include="Assets\UI\Script\Story\StoryManager.cs" />
     <Reference Include="Unity.PackageManagerUI.Editor">
