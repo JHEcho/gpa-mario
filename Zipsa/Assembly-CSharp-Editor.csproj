@@ -61,54 +61,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\DropdownOptionListDrawer.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\EditorCoroutine.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\GlyphInfoDrawer.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\KerningPairDrawer.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\SpriteInfoDrawer.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_BaseShaderGUI.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_BitmapShaderGUI.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_ColorGradientAssetMenu.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_ColorGradientEditor.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_DropdownEditor.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_EditorPanel.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_EditorUtility.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_FontAssetEditor.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_InputFieldEditor.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_MeshRendererEditor.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_PackageUtilities.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_PostBuildProcessHandler.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_ProjectTextSettings.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_ResourcesLoader.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_SDFShaderGUI.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_SettingsEditor.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_SpriteAssetEditor.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_SpriteAssetImporter.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_SpriteAssetMenu.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_StyleAssetMenu.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_StyleSheetEditor.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_SubMesh_Editor.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_SubMeshUI_Editor.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_UiEditorPanel.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMP_UIStyleManager.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMPro_ContextMenus.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMPro_CreateObjectMenu.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMPro_EditorShaderUtilities.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMPro_FontAssetCreatorWindow.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMPro_FontPlugin.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMPro_SDFMaterialEditor.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMPro_SortingLayerHelper.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMPro_TextContainerEditor.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Scripts\Editor\TMPro_TexturePostProcessor.cs" />
-    <Compile Include="Assets\com.unity.textmeshpro@1.2.4\Tests\Editor\TMP_EditorTests.cs" />
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/My/development/Game/Zipsa/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
+    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\CustomTiledImporterAttribute.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ICustomTiledImporter.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Material.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Mesh.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Prefab.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Texture.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Xml.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportUtils.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\SortingLayerExposedEditor.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\SpriteDepthInMapEditor.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\Tiled2UnityMenuItems.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\TiledAssetPostProcessor.cs" />
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/My/development/Game/Zipsa/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/My/development/Game/Zipsa/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/My/development/Game/Gpa/Zipsa/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -404,9 +371,6 @@
       <Project>{90D3FF80-8DBE-A6A6-007F-27FCC81EE6E3}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
